@@ -11,7 +11,7 @@ export default function Beranda() {
       </div>
 
       <div className="mx-auto px-4 sm:px-6 max-w-7xl pt-12 pb-12">
-        <div className="grid grid-cols-3">
+        <div className="grid sm:grid-cols-3 grid-cols-1">
           <div className="pr-7 col-span-2">
             <p className="font-medium text-gray-700 text-3xl mb-3">Deden Suryanto, M. Pd.</p>
             <p className="font-normal text-gray-700 text-xl mb-3">Kepala SMK Negeri 1 Subang - NIP. 19740315 199903 1 006</p>
@@ -28,7 +28,7 @@ export default function Beranda() {
               Kami juga komitmen untuk pengembangan smart school dengan konsep “One forl All”, pengembangan program SMK Masuk Desa, program Start Up for Bussiness, juga program center of excellence. semoga Allah SWT selalu melindungi kita semua dan memberikan kemudahan, kelancaran dan bimbingan Nya. AAmmiin. Wassalamualaikum wr wb
             </p>
           </div>
-          <div className="">
+          <div className="order-1">
             <img src={Orang1} alt="" className="rounded-md" />
           </div>
         </div>
