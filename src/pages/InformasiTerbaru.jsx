@@ -2,22 +2,22 @@ import { RPL, TKJ, DKV, OTKP, InformasiImg } from "../assets/"
 
 const informasi = [
   {
-    judul: "Lorem ipsum dolor sit.",
+    judul: "Lorem ipsum",
     isi: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, aliquam delectus? Beatae voluptates dolores recusandae at vitae sed id consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, cum.",
     gambar: RPL
   },
   {
-    judul: "Lorem ipsum dolor sit.",
+    judul: "Lorem ipsum dolor",
     isi: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, aliquam delectus? Beatae voluptates dolores recusandae at vitae sed id consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, cum.",
     gambar: TKJ
   },
   {
-    judul: "Lorem ipsum dolor sit.",
+    judul: "Lorem ipsum dolor sit",
     isi: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, aliquam delectus? Beatae voluptates dolores recusandae at vitae sed id consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, cum.",
     gambar: OTKP
   },
   {
-    judul: "Lorem ipsum dolor sit.",
+    judul: "Lorem ipsum dolor sit amet",
     isi: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt, aliquam delectus? Beatae voluptates dolores recusandae at vitae sed id consequatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, cum.",
     gambar: DKV
   },
