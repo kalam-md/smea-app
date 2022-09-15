@@ -1,23 +1,29 @@
-import RPL from "./img/rpl.jpg"
-import TKJ from "./img/tkj.jpg"
-import AKL from "./img/akl.jpg"
-import DKV from "./img/dkv.jpg"
-import Logistik from "./img/logistik.jpg"
-import Mesin from "./img/mesin.jpg"
-import Motor from "./img/motor.jpg"
-import OTKP from "./img/otkp.jpg"
-import Tataboga from "./img/tataboga.jpg"
-import Pemasaran from "./img/pemasaran.jpg"
+import RPL from "./img/rpl.webp"
+import TKJ from "./img/tkj.webp"
+import AKL from "./img/akl.webp"
+import DKV from "./img/dkv.webp"
+import LogistikImg from "./img/logistik.webp"
+import MesinImg from "./img/mesin.webp"
+import MotorImg from "./img/motor.webp"
+import OTKP from "./img/otkp.webp"
+import TatabogaImg from "./img/tataboga.webp"
+import PemasaranImg from "./img/pemasaran.webp"
+import Hero from "./img/hero.webp"
+import Orang1 from "./img/orang.webp"
+import InformasiImg from "./img/informasi.webp"
 
 export {
   RPL,
   TKJ,
   AKL,
   DKV,
-  Logistik,
-  Mesin,
-  Motor,
+  LogistikImg,
+  MesinImg,
+  MotorImg,
   OTKP,
-  Tataboga,
-  Pemasaran
+  TatabogaImg,
+  PemasaranImg,
+  Hero,
+  Orang1,
+  InformasiImg
 }

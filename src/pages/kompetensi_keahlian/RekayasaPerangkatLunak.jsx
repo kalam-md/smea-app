@@ -43,22 +43,22 @@ const kompDasar = [
 const galeriKegiatan = [
   {
     imageSrc: RPL,
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "Lorem ipsum dolor sit amet.",
     isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     imageSrc: TKJ,
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "Lorem ipsum dolor sit amet.",
     isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     imageSrc: AKL,
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "Lorem ipsum dolor sit amet.",
     isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
   {
     imageSrc: DKV,
-    imageAlt: "Front of men's Basic Tee in black.",
+    imageAlt: "Lorem ipsum dolor sit amet.",
     isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
   },
 ]

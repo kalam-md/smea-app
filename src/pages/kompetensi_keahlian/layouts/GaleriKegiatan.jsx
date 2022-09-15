@@ -6,7 +6,7 @@ export default function GaleriKegiatan({ galeri }) {
         <div className="mx-auto max-w-2xl lg:max-w-7xl">
           <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
             {galeri.map((item) => (
-              <div key={item.name} className="group relative p-2 bg-white drop-shadow-md rounded-md">
+              <div key={item.name} className="group relative bg-white">
                 <div className="min-h-80 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md bg-gray-200 group-hover:opacity-75 lg:aspect-none lg:h-80">
                   <img
                     src={item.imageSrc}

@@ -101,15 +101,15 @@ const kompetensi = [
 const sosmed = [
   {
     name: 'Youtube Official',
-    href: '#',
+    href: 'https://www.youtube.com/c/SMKNegeri1SubangOfficial',
   },
   {
     name: 'Instagram Official',
-    href: '#',
+    href: 'https://www.instagram.com/officialsmkn1subang/',
   },
   {
     name: 'Facebook Official',
-    href: '#',
+    href: 'https://web.facebook.com/officialsmkn1subang/?_rdc=1&_rdr',
   },
 ]
 
@@ -144,7 +144,7 @@ export default function Navbar() {
             </Link>
 
             {/* profil */}
-            <Popover className="relative">
+            {/* <Popover className="relative">
               {({ open }) => (
                 <>
                   <Popover.Button
@@ -192,7 +192,7 @@ export default function Navbar() {
                   </Transition>
                 </>
               )}
-            </Popover>
+            </Popover> */}
 
             {/* kompetensi */}
             <Popover className="relative">
@@ -336,14 +336,14 @@ export default function Navbar() {
               </div>
               <div className="mt-6">
                 <nav className="grid gap-y-8">
-                  <a href="#" className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-100">
+                  <Link to="/" className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-100">
                     <span className="ml-3 text-base font-medium text-gray-700 hover:text-gray-900">
                       Beranda
                     </span>
-                  </a>
+                  </Link>
 
                   {/* profil */}
-                  <Popover className="relative">
+                  {/* <Popover className="relative">
                     {({ open }) => (
                       <>
                         <Popover.Button
@@ -391,7 +391,7 @@ export default function Navbar() {
                         </Transition>
                       </>
                     )}
-                  </Popover>
+                  </Popover> */}
 
                   {/* kompetensi */}
                   <Popover className="relative">
@@ -495,17 +495,17 @@ export default function Navbar() {
                     )}
                   </Popover>
 
-                  <a href="#" className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-100">
+                  <Link to="/informasi-terbaru" className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-100">
                     <span className="ml-3 text-base font-medium text-gray-700 hover:text-gray-900">
                       Informasi Terbaru
                     </span>
-                  </a>
+                  </Link>
 
-                  <a href="#" className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-100">
+                  <Link to="/galeri" className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-100">
                     <span className="ml-3 text-base font-medium text-gray-700 hover:text-gray-900">
                       Galeri
                     </span>
-                  </a>
+                  </Link>
                 </nav>
               </div>
             </div>

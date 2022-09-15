@@ -1,6 +1,7 @@
 import JurusanHeader from "./layouts/JurusanHeader"
 import KompetensiDasar from "./layouts/KompetensiDasar"
-import TatabogaImg from "../../assets/img/tataboga.jpg"
+import GaleriKegiatan from "./layouts/GaleriKegiatan"
+import { RPL, TKJ, AKL, DKV, TatabogaImg } from "../../assets/"
 
 const tatabogaHeader =
 {
@@ -39,11 +40,35 @@ const kompDasar = [
   },
 ]
 
+const galeriKegiatan = [
+  {
+    imageSrc: RPL,
+    imageAlt: "Lorem ipsum dolor sit amet.",
+    isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    imageSrc: TKJ,
+    imageAlt: "Lorem ipsum dolor sit amet.",
+    isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    imageSrc: AKL,
+    imageAlt: "Lorem ipsum dolor sit amet.",
+    isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    imageSrc: DKV,
+    imageAlt: "Lorem ipsum dolor sit amet.",
+    isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+]
+
 export default function Tataboga() {
   return (
     <>
       <JurusanHeader {...tatabogaHeader} />
       <KompetensiDasar kompDasar={kompDasar} />
+      <GaleriKegiatan galeri={galeriKegiatan} />
     </>
   )
 }

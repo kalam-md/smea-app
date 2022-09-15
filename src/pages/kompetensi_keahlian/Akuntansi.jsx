@@ -1,6 +1,7 @@
 import JurusanHeader from "./layouts/JurusanHeader"
 import KompetensiDasar from "./layouts/KompetensiDasar"
-import AKL from "../../assets/img/akl.jpg"
+import GaleriKegiatan from "./layouts/GaleriKegiatan"
+import { RPL, TKJ, AKL, DKV } from "../../assets/"
 
 const aklHeader =
 {
@@ -42,11 +43,35 @@ const kompDasar = [
   },
 ]
 
+const galeriKegiatan = [
+  {
+    imageSrc: RPL,
+    imageAlt: "Lorem ipsum dolor sit amet.",
+    isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    imageSrc: TKJ,
+    imageAlt: "Lorem ipsum dolor sit amet.",
+    isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    imageSrc: AKL,
+    imageAlt: "Lorem ipsum dolor sit amet.",
+    isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+  {
+    imageSrc: DKV,
+    imageAlt: "Lorem ipsum dolor sit amet.",
+    isi: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
+  },
+]
+
 export default function Akuntansi() {
   return (
     <>
       <JurusanHeader {...aklHeader} />
       <KompetensiDasar kompDasar={kompDasar} />
+      <GaleriKegiatan galeri={galeriKegiatan} />
     </>
   )
 }
