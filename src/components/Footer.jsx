@@ -10,7 +10,7 @@ export default function Footer() {
           </div>
         </div >
         <div className="text-center">
-          <p>Copyright © 2022 - All right reserved by Kalam Mahardhika</p>
+          <p className="">Copyright © 2022 - All right reserved by Kalam Mahardhika</p>
         </div>
       </div>
     </footer >
